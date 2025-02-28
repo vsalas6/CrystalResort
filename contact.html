@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Crystal Peak Resort Resort | Contact</title>
+    <meta name="author" content="Vivian Salas">
+    <meta name="description" content="Content page for Crystal Peak Resort">
+
+    <!--FAVICON CODE-->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- LINK TO EXTERNAL STYLESHEET -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <div id="container">
+      <header>
+        <div>
+          <h1><a href="index.html" aria-label="go to home page">Crystal Peak Resort</a></h1>
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">Accommodations</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <img src="images/swiss-valley.jpg" alt="river with many green trees and green land.">
+      </header>
+
+      <main>
+        <section id="form">
+          <h2>Contact Us</h2>
+          <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us! Required fields marked with a *</p>
+          <img src="images/swiss-sunset.jpg" alt="a lake with trees and mountains">
+          <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+            <div id="left-right">
+              <div id="left">
+                <label for="fullname">Full Name<span class="required">*</span></label>
+                <input type="text" name="fullname" id="fullname" required>
+
+                <label for="email">Email<span class="required">*</span></label>
+                <input type="email" name="email" id="email" required>
+
+                <label for="phone">Phone Number<span class="required">*</span></label>
+                <input type="tel" name="phone" id="phone" required>
+              </div>
+
+              <div id="right">
+                <fieldset>
+                  <legend>Preferred Method of Contact<span class="required">*</span></legend>
+                  <input type="radio" name="contactpref" id="prefemail" required>
+                  <label for="prefemail">Email</label>
+
+                  <input type="radio" name="contactpref" id="prefphone" required>
+                  <label for="prefphone">Phone</label>
+                </fieldset>
+
+                <label for="mycomments">Comments<span class="required">*</span></label>
+                <textarea name="mycomments" id="mycomments" required></textarea>
+
+                <input type="submit" name="mysubmit" id="mysubmit" value="Submit Form">
+              </div>
+            </div>
+          </form>
+        </section>
+      </main>
+      <footer>
+        <p>Copyright &copy; 2023 - Crystal Peak Resort Resort</p>
+        <p>This site is for education purposes only</p>
+        <p>Favicon by PLANBSTUDIO on Flaticon Link: https://www.flaticon.com/authors/planbstudio</p>
+      </footer>
+    </div>
+  </body>
+</html>
